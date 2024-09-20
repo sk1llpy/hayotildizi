@@ -15,7 +15,7 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist', // Output directory for the production build
-    sourcemap: true, // Enable source maps for debugging
+    sourcemap: false, // Enable source maps for debugging
   },
   optimizeDeps: {
     include: [], // Add dependencies to optimize if needed
