@@ -6,7 +6,8 @@ export default defineConfig({
   base: '/', // Adjust if deploying to a subdirectory
   plugins: [react()],
   server: {
-    port: 3000, // Change to your preferred port for development
+    port: 3000,
+    host: 'hayotildizi', // Change to your preferred port for development
     open: true, // Automatically open the app in the browser
     proxy: {
       '/api': 'http://localhost:5000', // Example proxy for API requests
