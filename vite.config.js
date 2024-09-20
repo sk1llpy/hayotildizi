@@ -3,21 +3,21 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/', // Adjust if deploying to a subdirectory
+  base: '/', // Keep this for root deployment
   plugins: [react()],
   server: {
     port: 3000,
-    host: '46.101.170.250', // Change to your preferred port for development
-    open: true, // Automatically open the app in the browser
+    host: '46.101.170.250', // For development, change if necessary
+    open: true, // Automatically open the app in the browser for dev
     proxy: {
       '/api': 'http://localhost:5000', // Example proxy for API requests
     },
   },
   build: {
-    outDir: 'dist', // Output directory for the production build
-    sourcemap: false, // Enable source maps for debugging
+    outDir: 'dist', // Ensure this is the output directory for production
+    sourcemap: false, // Disable source maps in production
   },
   optimizeDeps: {
-    include: [], // Add dependencies to optimize if needed
+    include: [], // List dependencies to optimize if needed
   },
 })
