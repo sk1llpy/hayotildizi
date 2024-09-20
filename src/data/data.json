@@ -1,0 +1,47 @@
+{
+    "achievements": [
+        {
+            "id": 1,
+            "title": "10 000+ o'zgarishlar",
+            "description": "Bizning shaxsiylashtirilgan ovqatlanish rejalarimiz minglab odamlarga vazn yo'qotish maqsadlariga erishish va sog'lom turmush tarzini saqlashga yordam berdi.",
+            "image": "https://hayotildizi.uz/media/achievements/Group.svg"
+        },
+        {
+            "id": 2,
+            "title": "A'lo darajadagi e'tirof",
+            "description": "Dutritionist bizning innovatsion yondashuvimiz va mijozlar muvaffaqiyatiga sodiqligimiz uchun maqtovlarga sazovor bo'lgan, shaxsiylashtirilgan ovqatlanish bo'yicha murabbiylik bo'yicha yetakchi provayder sifatida tan olingan.",
+            "image": "https://hayotildizi.uz/media/achievements/graduationcap.fill.svg"
+        },
+        {
+            "id": 3,
+            "title": "Ijobiy mijozlar sharhlari",
+            "description": "Biz murabbiylik dasturimiz orqali sog'lig'i, vazni va umumiy farovonligida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik.",
+            "image": "https://hayotildizi.uz/media/achievements/fork.knife.svg"
+        },
+        {
+            "id": 4,
+            "title": "Sog'liqni saqlash bo'yicha eng yaxshi mutaxassislar bilan hamkorlik qiling.",
+            "description": "Dutritionist bizning mijozlarimiz yuqori sifatli ko'rsatma va yordam olishlarini ta'minlash uchun hurmatli dietologlar, dietitlar va sog'liqni saqlash mutaxassislari bilan hamkorlikni yo'lga qo'ydi.",
+            "image": "https://hayotildizi.uz/media/achievements/wallet.pass.fill.svg"
+        }
+    ],
+    "illnesses": [
+        {
+            "id": 1,
+            "title": "Jigar kasalliklari",
+            "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik.",
+            "image": "https://hayotildizi.uz/media/illnesses/Liver.png"
+        },
+        {
+            "id": 2,
+            "title": "Suyak bo’gim kasalliklari",
+            "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik.",
+            "image": "https://hayotildizi.uz/media/illnesses/fi_1373912.png"
+        }
+    ],
+    "youtube-videos": [
+        "https://www.youtube.com/embed/9BZH3rMd1D8?si=wsd7_JWyKnVSz2Yw",
+        "https://www.youtube.com/embed/-TlZ1jpB0KM?si=GaFkRSJ34cdazcb6",
+        "https://www.youtube.com/embed/SEIvOFdM4tY?si=Qq0A_7ZpJmU45iYz"
+    ]
+}

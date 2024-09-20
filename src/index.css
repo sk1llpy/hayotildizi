@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'rf-dewi-expanded';
+    src: url('./assets/fonts/RFDewiExpanded-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #FAFDF2;
+    margin-bottom: 100px;
+}
+
+* {
+    font-family: 'rf-dewi-expanded';
+}
+
+.region__menu-item:hover {
+    background-color: #29A624 !important;
+    color: white !important;
+}
+
+.Mui-selected {
+    background-color: rgba(41, 166, 36, 1) !important;
+    color: white !important;
+}
+
+.select-form {
+    border-radius: 0.5rem !important;
+}

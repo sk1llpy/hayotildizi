@@ -1,0 +1,41 @@
+{
+    "uz": {
+        "header": {
+            "main-menu": "Bosh sahifa",
+            "about": "Biz haqimizda",
+            "illnesses": "Kasalliklar",
+            "comments": "Sharhlar",
+            "certificates": "Sertifikatlar",
+            "call-with-us": "Biz bilan bog'lanish"
+        },
+        "about": {
+            "title": "Biz haqimizda"
+        }
+    },
+    "ru": {
+        "header": {
+            "main-menu": "Главная страница",
+            "about": "О нас",
+            "illnesses": "Болезни",
+            "comments": "Комментарии",
+            "certificates": "Сертификаты",
+            "call-with-us": "Связаться с нами"
+        },
+        "about": {
+            "title": "О нас"
+        }
+    },
+    "en": {
+        "header": {
+            "main-menu": "Main menu",
+            "about": "About us",
+            "illnesses": "Illnesses",
+            "comments": "Comments",
+            "certificates": "Certificates",
+            "call-with-us": "Contact with us"
+        },
+        "about": {
+            "title": "About us"
+        }
+    }
+}
