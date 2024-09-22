@@ -7,7 +7,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 3000,
-    host: '46.101.170.250', // For development, change if necessary
+    // host: '46.101.170.250', // For development, change if necessary
     open: true, // Automatically open the app in the browser for dev
     proxy: {
       '/api': 'http://localhost:5000', // Example proxy for API requests

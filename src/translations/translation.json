@@ -1,0 +1,113 @@
+{
+    "uz": {
+        "header": {
+            "main-menu": "Bosh sahifa",
+            "about": "Biz haqimizda",
+            "illnesses": "Kasalliklar",
+            "comments": "Sharhlar",
+            "certificates": "Sertifikatlar"
+        },
+        "about": {
+            "title": "Biz haqimizda",
+            "body": "Qudratli jenshen. Mo'jizaviy o'simlik jenshen \"hayot ildiz\" deb ataladi. Qadimda o'simlik shunday deyilgan: \"Kimki hayotning ildizini topsa, u umrining oxirigacha omadli va sog'lom bo'ladi, u ikki asr yashaydi.\" 500 yildan ortiq vaqt davomida u tibbiyotda ishlatilgan charchoqni, tananing chidamliligini davolash uchun. Jenshen faqat Uzoq Sharqda o'sadi. Bu o'simlik juda sekin o'sadi, ildiz yilda 1 grammga kattalashadi, shuning uchun ehtiyotkorlik bilan jenshen himoyalangan va maxsus plantatsiyalarda yetishtiriladi. Jenshen ekstrakti yangi tadqiqotda saratonning turli shakllari bilan og'rigan bemorlarning holatini sezilarli darajada yaxshilash va qo'shimcha kuch berish qobiliyatini namoyish etdi - bunday xulosalar yaqinda Amerika Klinik Onkologiya Jamiyatining navbatdagi konferentsiyasida e'lon qilindi."
+        },
+        "achievements": {
+            "title": "Kompaniya muvaffaqiyatlari",
+            "body": "Biz erishgan yutuqlarimiz va mijozlarimiz hayotiga ijobiy ta'sir ko'rsatganimiz bilan faxrlanamiz. E'tiborga molik yutuqlarimizdan ba'zilari",
+            "1": {
+                "title": "10 000+ o'zgarishlar",
+                "description": "Bizning shaxsiylashtirilgan ovqatlanish rejalarimiz minglab odamlarga vazn yo'qotish maqsadlariga erishish va sog'lom turmush tarzini saqlashga yordam berdi."
+            },
+            "2": {
+                "title": "A'lo darajadagi e'tirof",
+                "description": "Bizning innovatsion yondashuvimiz va mijozlar muvaffaqiyatiga sodiqligimiz uchun maqtovlarga sazovor bo'lgan, shaxsiylashtirilgan ovqatlanish bo'yicha murabbiylik bo'yicha yetakchi provayder sifatida tan olingan."
+            },
+            "3": {
+                "title": "Ijobiy mijozlar sharhlari",
+                "description": "Biz murabbiylik dasturimiz orqali sog'lig'i, vazni va umumiy farovonligida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik."
+            },
+            "4": {
+                "title": "Sog'liqni saqlash bo'yicha eng yaxshi mutaxassislar bilan hamkorlik",
+                "description": "Bizning mijozlarimiz yuqori sifatli ko'rsatma va yordam olishlarini ta'minlash uchun hurmatli dietologlar va sog'liqni saqlash mutaxassislari bilan hamkorlik qilamiz."
+            }
+        },
+        "buttons": {
+            "read-more": "To'liq ma'lumot",
+            "call-with-us": "Biz bilan bog'lanish"
+        }
+    },
+    "ru": {
+        "header": {
+            "main-menu": "Главная страница",
+            "about": "О нас",
+            "illnesses": "Болезни",
+            "comments": "Комментарии",
+            "certificates": "Сертификаты"
+        },
+        "about": {
+            "title": "О нас",
+            "body": "Мощный женьшень. Чудодейственное растение женьшень называют «корнем жизни». В древности говорили: «Тот, кто найдет корень жизни, будет удачлив и здоров до конца своих дней, он проживет два века». Более 500 лет его использовали в медицине для лечения усталости и повышения выносливости организма. Женьшень растет только на Дальнем Востоке. Это растение растет очень медленно, его корень увеличивается на 1 грамм в год, поэтому женьшень тщательно охраняют и выращивают на специальных плантациях. Экстракт женьшеня в новом исследовании показал способность значительно улучшить состояние пациентов, страдающих различными формами рака, и придать им дополнительную силу - такие выводы были недавно представлены на очередной конференции Американского общества клинической онкологии."
+        },
+        "achievements": {
+            "title": "Достижения компании",
+            "body": "Мы гордимся своими достижениями и тем, как наша работа позитивно влияет на жизнь наших клиентов. Некоторые из наших основных достижений включают",
+            "1": {
+                "title": "10 000+ изменений",
+                "description": "Наши персонализированные планы питания помогли тысячам людей достичь своих целей по снижению веса и поддерживать здоровый образ жизни."
+            },
+            "2": {
+                "title": "Высокое признание",
+                "description": "Наш инновационный подход и приверженность успеху клиентов заслужили похвалы и признание, как ведущий поставщик персонализированных программ питания."
+            },
+            "3": {
+                "title": "Положительные отзывы клиентов",
+                "description": "Мы получили множество отзывов от довольных клиентов, которые отметили значительные улучшения в здоровье, весе и общем благополучии благодаря нашему коучинг-программам."
+            },
+            "4": {
+                "title": "Сотрудничество с лучшими специалистами в области здравоохранения",
+                "description": "Мы сотрудничаем с уважаемыми диетологами и специалистами в области здравоохранения, чтобы наши клиенты получали качественные консультации и поддержку."
+            }
+        },
+        "buttons": {
+            "read-more": "Читать дальше",
+            "call-with-us": "Связаться с нами"
+        }
+    },
+    "en": {
+        "header": {
+            "main-menu": "Main menu",
+            "about": "About us",
+            "illnesses": "Illnesses",
+            "comments": "Comments",
+            "certificates": "Certificates"
+        },
+        "about": {
+            "title": "About us",
+            "body": "Powerful ginseng. The miraculous plant ginseng is called the \"root of life.\" In ancient times, it was said: \"Whoever finds the root of life will be lucky and healthy for the rest of their life, living for two centuries.\" For over 500 years, it has been used in medicine to treat fatigue and increase the body's endurance. Ginseng grows only in the Far East. This plant grows very slowly, with its root increasing by 1 gram per year, so ginseng is carefully protected and grown on special plantations. Ginseng extract in a new study showed the ability to significantly improve the condition of patients suffering from various forms of cancer and provide additional strength - such conclusions were recently presented at the next conference of the American Society of Clinical Oncology."
+        },
+        "achievements": {
+            "title": "Company Achievements",
+            "body": "We take pride in our achievements and the positive impact we've made on our clients' lives. Some of our notable achievements include",
+            "1": {
+                "title": "10,000+ transformations",
+                "description": "Our personalized nutrition plans have helped thousands of people achieve their weight loss goals and maintain a healthy lifestyle."
+            },
+            "2": {
+                "title": "Top recognition",
+                "description": "Our innovative approach and commitment to client success have earned us praise and recognition as a leading provider of personalized nutrition coaching."
+            },
+            "3": {
+                "title": "Positive client reviews",
+                "description": "We have received numerous testimonials from satisfied clients who have experienced significant improvements in their health, weight, and overall well-being through our coaching program."
+            },
+            "4": {
+                "title": "Collaboration with top healthcare experts",
+                "description": "We have partnered with respected dietitians and healthcare professionals to ensure our clients receive high-quality guidance and support."
+            }
+        },
+        "buttons": {
+            "read-more": "Read more",
+            "call-with-us": "Contact us"
+        }
+    }
+}

@@ -1,15 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { NavLink } from 'react-router-dom';
 import { FaBars, FaTimes, FaChevronDown } from 'react-icons/fa';
 import logoImage from '../assets/logo.svg';
-import translation from '../translations/translations.json';
-import i18n from '../translations/index';
-
+import translation from '../translations/translation.json';
+import { LanguageContext } from '../contexts/LanguageContext';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isLanguageDropdownOpen, setLanguageDropdownOpen] = useState(false);
   const [t, setTranslation] = useState(translation.uz);
+  const { language, setLanguage } = useContext(LanguageContext);
 
   const languages = [
     {
@@ -48,7 +48,6 @@ const Navbar = () => {
     const storedLanguageImage = localStorage.getItem('language_image');
     const storedLanguageCode = localStorage.getItem('language_code');
 
-    i18n.changeLanguage("en");
     if (storedLanguage && storedLanguageImage && storedLanguageCode) {
       setSelectedLanguage({
         language: storedLanguage,
@@ -58,7 +57,6 @@ const Navbar = () => {
       setTranslation(translation[storedLanguageCode]);
     }
   }, []);
-
 
   return (
     <nav className="navbar bg-white shadow-lg sticky top-0 z-50 px-6 py-4 flex justify-between items-center">
@@ -147,10 +145,10 @@ const Navbar = () => {
                       localStorage.setItem('language', language.language);
                       localStorage.setItem('language_image', language.image);
                       localStorage.setItem('language_code', language.language_code);
-
                       setSelectedLanguage(languageInfo);
                       setLanguageDropdownOpen(false);
-                      setTranslation(translation[language.language_code])
+                      setLanguage(language.language_code);
+                      setTranslation(translation[language.language_code]);
                     }}
                   >
                     <img
@@ -171,7 +169,7 @@ const Navbar = () => {
           href="tel:+998787777757"
           className="bg-green-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-green-700 transition duration-300"
         >
-          {t.header['call-with-us']}
+          {t.buttons['call-with-us']}
         </a>
       </div>
 
@@ -264,10 +262,10 @@ const Navbar = () => {
                         localStorage.setItem('language', language.language);
                         localStorage.setItem('language_image', language.image);
                         localStorage.setItem('language_code', language.language_code);
-                        
                         setSelectedLanguage(languageInfo);
                         setLanguageDropdownOpen(false);
-                        setTranslation(translation[language.language_code])
+                        setLanguage(language.language_code);
+                        setTranslation(translation[language.language_code]);
                       }}
                     >
                       <img
@@ -288,7 +286,7 @@ const Navbar = () => {
             href="tel:+998787777757"
             className="block w-full text-center bg-green-600 text-white font-semibold px-5 py-2 rounded-lg hover:bg-green-700 transition duration-300"
           >
-            {t.header['call-with-us']}
+            {t.buttons['call-with-us']}
           </a>
         </div>
       </div>
