@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: #FAFDF2;
+    background-color: #ffff;
     margin-bottom: 100px;
 }
 
@@ -30,4 +30,9 @@ body {
 
 .select-form {
     border-radius: 0.5rem !important;
+}
+
+.about_page_list li {
+    margin-bottom: 5px;
+    list-style-type: disc !important;
 }

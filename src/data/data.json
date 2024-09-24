@@ -30,13 +30,13 @@
             "id": 1,
             "title": "Jigar kasalliklari",
             "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik.",
-            "image": "https://hayotildizi.uz/media/illnesses/Liver.png"
+            "image": "./illnesses/liver.png"
         },
         {
             "id": 2,
             "title": "Suyak bo’gim kasalliklari",
             "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik.",
-            "image": "https://hayotildizi.uz/media/illnesses/fi_1373912.png"
+            "image": "./illnesses/arthritis.png"
         }
     ],
     "youtube-videos": [

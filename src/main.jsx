@@ -1,10 +1,17 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom/client";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 import "./index.css";
+
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { LanguageProvider } from './contexts/LanguageContext';
+
 import App from "./App";
 import Home from "./pages/Home";
-import { LanguageProvider } from './contexts/LanguageContext';
+import About from "./pages/About";
+import CertificatesPage from "./pages/Certificates";
+import NotFound from "./pages/NotFound";
+import Illness from "./pages/Illness";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +21,22 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />
+      },
+      {
+        path: '/about',
+        element: <About />
+      },
+      {
+        path: '/certificates',
+        element: <CertificatesPage />
+      },
+      {
+        path: "/illness/:id",
+        element: <Illness />
+      },
+      {
+        path: "*",
+        element: <NotFound />
       }
     ],
   }
@@ -21,7 +44,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <LanguageProvider> {/* Make sure this is the Provider */}
+    <LanguageProvider>
       <RouterProvider router={router} />
     </LanguageProvider>
   </React.StrictMode>

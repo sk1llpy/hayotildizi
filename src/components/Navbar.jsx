@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import { FaBars, FaTimes, FaChevronDown } from 'react-icons/fa';
 import logoImage from '../assets/logo.svg';
 import translation from '../translations/translation.json';
@@ -62,22 +62,22 @@ const Navbar = () => {
     <nav className="navbar bg-white shadow-lg sticky top-0 z-50 px-6 py-4 flex justify-between items-center">
       {/* Logo Section */}
       <div className="flex items-center">
-        <button href="https://hayotildizi.uz/">
-          <img src={logoImage} alt="Hayotildizi Logo" className="h-8" />
-        </button>
+        <Link to="/">
+          <img src={logoImage} alt="Hayotildizi" className="h-8" />
+        </Link>
       </div>
 
       {/* Hamburger Icon for Mobile */}
-      <div className="md:hidden">
+      <div className="lg:hidden">
         <a onClick={toggleMobileMenu} className="text-gray-700 focus:outline-none">
           {isMobileMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
         </a>
       </div>
 
       {/* Links for Desktop */}
-      <div className="hidden md:flex items-center space-x-8">
+      <div className="hidden lg:flex items-center space-x-8">
         <NavLink
-          to="/"
+          to="/#about-section"
           className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-300"
           activeClassName="text-green-600 border-b-2 border-green-600 pb-1"
         >
@@ -91,14 +91,14 @@ const Navbar = () => {
           {t.header.about}
         </NavLink>
         <NavLink
-          to="/diseases"
+          to="/#illnesses"
           className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-300"
           activeClassName="text-green-600 border-b-2 border-green-600 pb-1"
         >
           {t.header.illnesses}
         </NavLink>
         <NavLink
-          to="/reviews"
+          to="/#youtube-videos"
           className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-300"
           activeClassName="text-green-600 border-b-2 border-green-600 pb-1"
         >
@@ -114,7 +114,7 @@ const Navbar = () => {
       </div>
 
       {/* Language Selector & CTA Button */}
-      <div className="hidden md:flex items-center space-x-4">
+      <div className="hidden lg:flex items-center space-x-4">
         {/* Unified Custom Language Selector */}
         <div className="relative">
           <button
@@ -180,9 +180,9 @@ const Navbar = () => {
         }`}
       >
         <div className="flex justify-between items-center px-6 py-4 border-b h-[65px]">
-          <a href="https://hayotildizi.uz/">
+          <Link to="/">
             <img src={logoImage} alt="Hayotildizi Logo" className="h-8" />
-          </a>
+          </Link>
           <a
             onClick={toggleMobileMenu}
             className="text-gray-700 focus:outline-none"
@@ -208,7 +208,7 @@ const Navbar = () => {
             {t.header.about}
           </NavLink>
           <NavLink
-            to="/diseases"
+            to="/#illnesses"
             onClick={toggleMobileMenu}
             className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-300"
             activeClassName="text-green-600"
@@ -216,7 +216,7 @@ const Navbar = () => {
             {t.header.illnesses}
           </NavLink>
           <NavLink
-            to="/reviews"
+            to="/#youtube-videos"
             onClick={toggleMobileMenu}
             className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-300"
             activeClassName="text-green-600"

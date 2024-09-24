@@ -11,6 +11,23 @@
             "title": "Biz haqimizda",
             "body": "Qudratli jenshen. Mo'jizaviy o'simlik jenshen \"hayot ildiz\" deb ataladi. Qadimda o'simlik shunday deyilgan: \"Kimki hayotning ildizini topsa, u umrining oxirigacha omadli va sog'lom bo'ladi, u ikki asr yashaydi.\" 500 yildan ortiq vaqt davomida u tibbiyotda ishlatilgan charchoqni, tananing chidamliligini davolash uchun. Jenshen faqat Uzoq Sharqda o'sadi. Bu o'simlik juda sekin o'sadi, ildiz yilda 1 grammga kattalashadi, shuning uchun ehtiyotkorlik bilan jenshen himoyalangan va maxsus plantatsiyalarda yetishtiriladi. Jenshen ekstrakti yangi tadqiqotda saratonning turli shakllari bilan og'rigan bemorlarning holatini sezilarli darajada yaxshilash va qo'shimcha kuch berish qobiliyatini namoyish etdi - bunday xulosalar yaqinda Amerika Klinik Onkologiya Jamiyatining navbatdagi konferentsiyasida e'lon qilindi."
         },
+        "benefits": {
+            "title": "Qizil jenshen ildizi",
+            "benefits": {
+                "1": "Qon tarkibida qand moddasining patologik miqdori pasaytiradi",
+                "2": "Ishchanlik qobiliyatini kuchaytiradi",
+                "3": "Qizil jenshen o’t moddasini organizmdan chiqarib yuboradi, o‘pkada gaz almashinuvini yaxshilaydi",
+                "4": "Arterial qon bosimi me‘yorlashtiradi",
+                "5": "Endokrin tizimi ish faoliyati barqarorlashtiradi",
+                "6": "O‘simlik ildizida alkaloidlar, turli shiralar, C vitamini, oltingugurt va fosfor, hushbo‘y moddalar, shuningdek, mikro va makroelementlar ko'p miqdorda mavjud",
+                "7": "Erkaklarda: Libidoni oshiradi (jinsiy ishtiyoq)",
+                "8": "Ereksiya faoliyatini sezilarli darajada yaxshilaydi",
+                "9": "Spermatozoidlarning sifati va harakatchanligini yaxshilaydi",
+                "10": "Ayollarda: Betartib hayz siklini to'g'irlaydi",
+                "11": "Gormonal uzilishlarni tiklaydi",
+                "12": "Fertil yoshni uzaytira oladi va menopauzani barvaqt boshlanishini oldini oladi."
+            }
+        },
         "achievements": {
             "title": "Kompaniya muvaffaqiyatlari",
             "body": "Biz erishgan yutuqlarimiz va mijozlarimiz hayotiga ijobiy ta'sir ko'rsatganimiz bilan faxrlanamiz. E'tiborga molik yutuqlarimizdan ba'zilari",
@@ -31,83 +48,216 @@
                 "description": "Bizning mijozlarimiz yuqori sifatli ko'rsatma va yordam olishlarini ta'minlash uchun hurmatli dietologlar va sog'liqni saqlash mutaxassislari bilan hamkorlik qilamiz."
             }
         },
+        "reviews": {
+            "title": "Mijozlarimiz fikri"
+        },
+        "illnesses": {
+            "title": "Sizni bezovta qiladigan kasalliklar",
+            "1": {
+                "title": "Jigar kasalliklari",
+                "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik."
+            },
+            "2": {
+                "title": "Suyak bo’gim kasalliklari",
+                "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik."
+            }
+        },
+        "certificates": {
+            "title": "Sertifikatlar"
+        },
         "buttons": {
+            "go-home-page": "Asosiy sahifaga o'tish",
+            "more": "Batafsil",
+            "consultation": "Bepul konsultatsiya olish",
+            "see-all": "Barchasini ko'rish",
+            "youtube": "Youtube kanalga o'tish",
             "read-more": "To'liq ma'lumot",
             "call-with-us": "Biz bilan bog'lanish"
+        },
+        "form": {
+            "title": "Biz bilan bog'lanish",
+            "full-name": "Ism-familya",
+            "full-name-placeholder": "Ism-familyangizni kiriting",
+            "phone-number": "Telefon raqam",
+            "region": "Viloyat",
+            "region-placeholder": "Viloyatingizni kiriting"
+        },
+        "404": {
+            "description": "Sahifa topilmadi!"
         }
     },
     "ru": {
         "header": {
-            "main-menu": "Главная страница",
+            "main-menu": "Главная",
             "about": "О нас",
             "illnesses": "Болезни",
-            "comments": "Комментарии",
+            "comments": "Отзывы",
             "certificates": "Сертификаты"
         },
         "about": {
             "title": "О нас",
-            "body": "Мощный женьшень. Чудодейственное растение женьшень называют «корнем жизни». В древности говорили: «Тот, кто найдет корень жизни, будет удачлив и здоров до конца своих дней, он проживет два века». Более 500 лет его использовали в медицине для лечения усталости и повышения выносливости организма. Женьшень растет только на Дальнем Востоке. Это растение растет очень медленно, его корень увеличивается на 1 грамм в год, поэтому женьшень тщательно охраняют и выращивают на специальных плантациях. Экстракт женьшеня в новом исследовании показал способность значительно улучшить состояние пациентов, страдающих различными формами рака, и придать им дополнительную силу - такие выводы были недавно представлены на очередной конференции Американского общества клинической онкологии."
+            "body": "Мощный женьшень. Чудодейственное растение женьшень называют «корнем жизни». В древности говорили: «Тот, кто найдет корень жизни, будет счастлив и здоров всю жизнь и проживет два века». Более 500 лет его используют в медицине для лечения усталости и повышения выносливости организма. Женьшень растет только на Дальнем Востоке. Это растение растет очень медленно, его корень увеличивается на 1 грамм в год, поэтому женьшень выращивают на специальных плантациях и тщательно охраняют. Недавние исследования показали, что экстракт женьшеня может значительно улучшить состояние пациентов с различными формами рака и дать дополнительную силу. Такие выводы были представлены на недавней конференции Американского общества клинической онкологии."
+        },
+        "benefits": {
+            "title": "Красный корень женьшеня",
+            "benefits": {
+                "1": "Снижает патологическое содержание сахара в крови",
+                "2": "Повышает работоспособность",
+                "3": "Выводит желчь из организма и улучшает газообмен в легких",
+                "4": "Нормализует артериальное давление",
+                "5": "Стабилизирует работу эндокринной системы",
+                "6": "Корень растения содержит алкалоиды, различные соки, витамин С, серу и фосфор, ароматические вещества, а также много микро- и макроэлементов",
+                "7": "Для мужчин: Повышает либидо (половое влечение)",
+                "8": "Значительно улучшает эректильную функцию",
+                "9": "Улучшает качество и подвижность сперматозоидов",
+                "10": "Для женщин: Регулирует нерегулярные менструальные циклы",
+                "11": "Восстанавливает гормональные нарушения",
+                "12": "Может продлить фертильный возраст и предотвратить преждевременную менопаузу."
+            }
         },
         "achievements": {
             "title": "Достижения компании",
-            "body": "Мы гордимся своими достижениями и тем, как наша работа позитивно влияет на жизнь наших клиентов. Некоторые из наших основных достижений включают",
+            "body": "Мы гордимся своими достижениями и тем, как наша работа положительно влияет на жизнь наших клиентов. Вот некоторые из наших значимых достижений:",
             "1": {
                 "title": "10 000+ изменений",
-                "description": "Наши персонализированные планы питания помогли тысячам людей достичь своих целей по снижению веса и поддерживать здоровый образ жизни."
+                "description": "Наши индивидуальные планы питания помогли тысячам людей достичь своих целей по снижению веса и вести здоровый образ жизни."
             },
             "2": {
                 "title": "Высокое признание",
-                "description": "Наш инновационный подход и приверженность успеху клиентов заслужили похвалы и признание, как ведущий поставщик персонализированных программ питания."
+                "description": "Наш инновационный подход и приверженность успеху клиентов получили признание и высокую оценку."
             },
             "3": {
                 "title": "Положительные отзывы клиентов",
-                "description": "Мы получили множество отзывов от довольных клиентов, которые отметили значительные улучшения в здоровье, весе и общем благополучии благодаря нашему коучинг-программам."
+                "description": "Мы получили множество отзывов от довольных клиентов, которые заметили значительные улучшения в своем здоровье, весе и общем благополучии."
             },
             "4": {
-                "title": "Сотрудничество с лучшими специалистами в области здравоохранения",
-                "description": "Мы сотрудничаем с уважаемыми диетологами и специалистами в области здравоохранения, чтобы наши клиенты получали качественные консультации и поддержку."
+                "title": "Сотрудничество с ведущими специалистами в области здравоохранения",
+                "description": "Мы сотрудничаем с уважаемыми диетологами и специалистами в области здравоохранения, чтобы наши клиенты получали высококачественные консультации и поддержку."
             }
         },
+        "reviews": {
+            "title": "Отзывы наших клиентов"
+        },
+        "illnesses": {
+            "title": "Болезни, которые вас беспокоят",
+            "1": {
+                "title": "Jigar kasalliklari",
+                "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik."
+            },
+            "2": {
+                "title": "Suyak bo’gim kasalliklari",
+                "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik."
+            }
+        },
+        "certificates": {
+            "title": "Сертификаты"
+        },
         "buttons": {
+            "go-home-page": "Перейти на домашнюю страницу",
+            "more": "Более",
+            "consultation": "Получить бесплатную консультацию",
+            "see-all": "Смотреть все",
+            "youtube": "Перейти на YouTube",
             "read-more": "Читать дальше",
             "call-with-us": "Связаться с нами"
+        },
+        "form": {
+            "title": "Связаться с нами",
+            "full-name": "Имя и фамилия",
+            "full-name-placeholder": "Введите ваше имя и фамилию",
+            "phone-number": "Номер телефона",
+            "region": "Область",
+            "region-placeholder": "Введите вашу область"
+        },
+        "404": {
+            "description": "Страница не найдена!"
         }
     },
     "en": {
         "header": {
-            "main-menu": "Main menu",
-            "about": "About us",
+            "main-menu": "Home",
+            "about": "About Us",
             "illnesses": "Illnesses",
             "comments": "Comments",
             "certificates": "Certificates"
         },
         "about": {
-            "title": "About us",
-            "body": "Powerful ginseng. The miraculous plant ginseng is called the \"root of life.\" In ancient times, it was said: \"Whoever finds the root of life will be lucky and healthy for the rest of their life, living for two centuries.\" For over 500 years, it has been used in medicine to treat fatigue and increase the body's endurance. Ginseng grows only in the Far East. This plant grows very slowly, with its root increasing by 1 gram per year, so ginseng is carefully protected and grown on special plantations. Ginseng extract in a new study showed the ability to significantly improve the condition of patients suffering from various forms of cancer and provide additional strength - such conclusions were recently presented at the next conference of the American Society of Clinical Oncology."
+            "title": "About Us",
+            "body": "The powerful ginseng. The miraculous plant ginseng is called the 'root of life.' In ancient times it was said: 'Whoever finds the root of life will be lucky and healthy for the rest of their life, and will live for two centuries.' For over 500 years, it has been used in medicine to treat fatigue and improve the body's endurance. Ginseng only grows in the Far East. The plant grows very slowly, with the root increasing by 1 gram per year, which is why ginseng is carefully protected and grown on special plantations. Recent studies have shown that ginseng extract can significantly improve the condition of patients with various forms of cancer and give them extra strength – such findings were recently presented at a conference of the American Society of Clinical Oncology."
+        },
+        "benefits": {
+            "title": "Red Ginseng Root",
+            "benefits": {
+                "1": "Reduces pathological sugar levels in the blood",
+                "2": "Increases working capacity",
+                "3": "Removes bile from the body and improves gas exchange in the lungs",
+                "4": "Normalizes blood pressure",
+                "5": "Stabilizes the function of the endocrine system",
+                "6": "The plant root contains alkaloids, various juices, vitamin C, sulfur, phosphorus, aromatic substances, as well as a lot of micro and macro elements",
+                "7": "For men: Increases libido (sexual desire)",
+                "8": "Significantly improves erectile function",
+                "9": "Improves sperm quality and mobility",
+                "10": "For women: Regulates irregular menstrual cycles",
+                "11": "Restores hormonal imbalances",
+                "12": "Can extend fertility age and prevent premature menopause."
+            }
         },
         "achievements": {
             "title": "Company Achievements",
-            "body": "We take pride in our achievements and the positive impact we've made on our clients' lives. Some of our notable achievements include",
+            "body": "We are proud of our achievements and the positive impact we've made on the lives of our clients. Here are some of our noteworthy accomplishments:",
             "1": {
-                "title": "10,000+ transformations",
+                "title": "10,000+ Transformations",
                 "description": "Our personalized nutrition plans have helped thousands of people achieve their weight loss goals and maintain a healthy lifestyle."
             },
             "2": {
-                "title": "Top recognition",
+                "title": "High Recognition",
                 "description": "Our innovative approach and commitment to client success have earned us praise and recognition as a leading provider of personalized nutrition coaching."
             },
             "3": {
-                "title": "Positive client reviews",
-                "description": "We have received numerous testimonials from satisfied clients who have experienced significant improvements in their health, weight, and overall well-being through our coaching program."
+                "title": "Positive Client Testimonials",
+                "description": "We've received numerous testimonials from satisfied clients who have seen significant improvements in their health, weight, and overall well-being."
             },
             "4": {
-                "title": "Collaboration with top healthcare experts",
-                "description": "We have partnered with respected dietitians and healthcare professionals to ensure our clients receive high-quality guidance and support."
+                "title": "Partnerships with Top Health Experts",
+                "description": "We collaborate with respected dietitians and healthcare professionals to ensure our clients receive high-quality guidance and support."
             }
         },
+        "reviews": {
+            "title": "Client Reviews"
+        },
+        "illnesses": {
+            "title": "Illnesses That Bother You",
+            "1": {
+                "title": "Jigar kasalliklari",
+                "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik."
+            },
+            "2": {
+                "title": "Suyak bo’gim kasalliklari",
+                "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik."
+            }
+        },
+        "certificates": {
+            "title": "Certificates"
+        },
         "buttons": {
-            "read-more": "Read more",
-            "call-with-us": "Contact us"
+            "go-home-page": "Go to Home Page",
+            "more": "More",
+            "consultation": "Get a Free Consultation",
+            "see-all": "See All",
+            "youtube": "Go to YouTube Channel",
+            "read-more": "Read More",
+            "call-with-us": "Contact Us"
+        },
+        "form": {
+            "title": "Contact Us",
+            "full-name": "Full Name",
+            "full-name-placeholder": "Enter your full name",
+            "phone-number": "Phone Number",
+            "region": "Region",
+            "region-placeholder": "Enter your region"
+        },
+        "404": {
+            "description": "Page not found!"
         }
-    }
+    }   
 }
