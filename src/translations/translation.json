@@ -62,6 +62,18 @@
                 "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik."
             }
         },
+        "illness-page": {
+            "1": {
+                "title": "Jigar kasalliklari",
+                "description": "jigarning surunkali rivojlanib boradigan kasalligi; bunda jigar toʻqimasi yalligʻlanib, uning bir qismi biriktiruvchi toʻqima bilan almashinadi. Jigarning oʻtkir yalligʻlanishi — gepatitda, uning B, C, D shakllarida, oʻtkir gepatit surunkali gepatitga aylanayotganda, bezgak, sil, zaxm, brutsellyoz kabi yuqumli kasalliklarda, oʻt pufagi va oʻt yoʻllarining surunkali yalligʻlanishida, turli kimyoviy moddalardan muntazam zaharlanishda, shuningdek, alkogolizmda va boshqa sabablarga koʻra paydo boʻladi. Jigar sirrozi — sekin rivojlanadigan surunkali kasallik. Jigar sirrozi turlicha namoyon boʻladi va u xastalikning qaysi shaklida kechishi hamda davriga bogʻliq; tekshirganda jigarning qattiqlashgani va funksiyasining buzilganligiga qaramay, kishi uzoq vaqt hech qanday xastalik alomatini sezmay yurishi mumkin. Kasallik zoʻrayganda bemor darmonsizlanadi, ozib ketadi, ishtahadan qoladi, kekiradi, koʻngli ayniydi, baʼzan qusadi, ichi ketadi yoki qotadi, qorni dam boʻladi, tana xarorati koʻtariladi, qorin boʻshligʻida suyuqlik toʻplanishi natijasida u koʻtariladi (istisqo), burni qonaydi, badani qichishadi, baʼzan sargʻayadi; kamqonlik avjiga chiqadi; jigari va ayniqsa talogʻi kattalashadi va qattiqlashadi.",
+                "wiki": "https://uz.wikipedia.org/wiki/Jigar_sirrozi"
+            },
+            "2": {
+                "title": "Suyak bo’gim kasalliklari",
+                "description": "Revmatik kasalliklarni ichiga bo‘g‘im kasalliklari ham kiradi. Bo‘g‘im kasalliklari 150 ta kasallikni o‘ziga qamrab olgan. Odamlarni jarohatga va nogironlikka sabab bo‘luvchi kasalliklar juda ko‘pchilikni tashkil qiladi. Bular hammaga tanish revmatizm, artrit, osteoartrit, tizimli kasalliklar hisoblanadi. Bu kasallikar ichida eng ko‘p tarqalgani esa osteoartrit (osteoartroz)dir. Kasallik umumiy aholining deyarli 4 foizida uchraydi. Oldinlari bu kasallik yoshi kattalarda, ya'ni 60-70 yoshlilarda uchraydi, degan fikr bo‘lardi. Bugungi kunda bu kasallik yosharib, yoshlarda ham uchrayapti. Buning sabablari juda ko‘p, lekin aniq bir sababi haligacha aniqlanmagan.",
+                "wiki": "https://uz.wikipedia.org/wiki/Osteomiyelit"
+            }
+        },
         "certificates": {
             "title": "Sertifikatlar"
         },
@@ -141,12 +153,24 @@
         "illnesses": {
             "title": "Болезни, которые вас беспокоят",
             "1": {
-                "title": "Jigar kasalliklari",
-                "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik."
+                "title": "Заболевания печени",
+                "description": "Мы получили множество отзывов от довольных клиентов, которые почувствовали значительное улучшение своего здоровья."
             },
             "2": {
-                "title": "Suyak bo’gim kasalliklari",
-                "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik."
+                "title": "Заболевания костей и суставов",
+                "description": "Мы получили множество отзывов от довольных клиентов, которые почувствовали значительное улучшение своего здоровья."
+            }
+        },
+        "illness-page": {
+            "1": {
+                "title": "Заболевания печени",
+                "description": "хроническое заболевание печени; при котором ткань печени воспаляется и часть ее заменяется соединительной тканью. Острое воспаление печени – при гепатите его формы В, С, D, при котором развивается острый гепатит. в хронический гепатит, малярию, туберкулез, раны. Встречается при инфекционных заболеваниях, таких как бруцеллез, хронические воспаления желчного пузыря и желчевыводящих путей, а также при алкоголизме и других причинах, несмотря на то, что печень затвердела и от этого зависит ее функция; нарушено, человек может длительное время ходить, не замечая никаких симптомов заболевания. При обострении заболевания у больного теряется аппетит, появляется отрыжка, иногда рвота, понос, в результате чего повышается температура. при скоплении жидкости в брюшной полости она поднимается (вздутие), идет кровь из носа, тело чешется, иногда желтеет; пики анемии; печень и особенно селезенка увеличиваются и твердеют",
+                "wiki": "https://ru.wikipedia.org/wiki/%D0%A6%D0%B8%D1%80%D1%80%D0%BE%D0%B7_%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8"
+            },
+            "2": {
+                "title": "Заболевания костей и суставов",
+                "description": "К ревматическим заболеваниям относятся болезни суставов. К болезням суставов относятся 150 заболеваний. Большую часть составляют болезни, вызывающие травмы и инвалидность человека. Это всем известные ревматизм, остеоартроз, наиболее распространенным среди этих заболеваний является остеоартроз (остеоартроз), который Это заболевание встречается почти у 4% населения в целом. Сегодня это заболевание становится все моложе и моложе. Для этого есть много причин, но точная причина еще не определена",
+                "wiki": "https://uz.wikipedia.org/wiki/Osteomiyelit"
             }
         },
         "certificates": {
@@ -228,12 +252,24 @@
         "illnesses": {
             "title": "Illnesses That Bother You",
             "1": {
-                "title": "Jigar kasalliklari",
-                "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik."
+                "title": "Liver diseases",
+                "description": "We have received many testimonials from satisfied customers who have experienced significant improvements in their health."
             },
             "2": {
-                "title": "Suyak bo’gim kasalliklari",
-                "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik."
+                "title": "Diseases of bones and joints",
+                "description": "We have received many testimonials from satisfied customers who have experienced significant improvements in their health."
+            }
+        },
+        "illness-page": {
+            "1": {
+                "title": "Liver diseases",
+                "description": "a chronic disease of the liver; in which the liver tissue becomes inflamed and part of it is replaced by connective tissue. Acute inflammation of the liver - in hepatitis, its B, C, D forms, when acute hepatitis turns into chronic hepatitis, malaria, tuberculosis, wounds, It occurs in infectious diseases such as brucellosis, chronic inflammation of the gall bladder and bile ducts, as well as in alcoholism and other reasons depends; despite the fact that the liver has hardened and its function is impaired, a person can walk for a long time without noticing any symptoms of the disease. When the disease worsens, the patient loses appetite, belches, sometimes vomits, has diarrhea, and the body becomes restless. the temperature rises, as a result of the accumulation of fluid in the abdominal cavity, it rises (distension), the nose bleeds, the body itches, sometimes it turns yellow; anemia peaks; the liver and especially the spleen become enlarged and hardened.",
+                "wiki": "https://en.wikipedia.org/wiki/Cirrhosis"
+            },
+            "2": {
+                "title": "Diseases of bones and joints",
+                "description": "Rheumatic diseases include joint diseases. Joint diseases include 150 diseases. Diseases that cause injury and disability to people are the majority. These are all known rheumatism, osteoarthritis, the most common among these diseases is osteoarthritis (osteoarthrosis), which occurs in almost 4% of the general population it would be an idea. Today, this disease is getting younger and younger. There are many reasons for this, but an exact reason has not been identified yet.",
+                "wiki": "https://uz.wikipedia.org/wiki/Osteomyelitis"
             }
         },
         "certificates": {
