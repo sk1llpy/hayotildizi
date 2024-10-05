@@ -12,6 +12,11 @@ import AboutImage from '../assets/form.jpg'
 
 
 const Home = () => {
+  if (!localStorage.getItem('language_code')) {
+    localStorage.setItem('language', "O'zbekcha");
+    localStorage.setItem('language_image', "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/255px-Flag_of_Uzbekistan.svg.png");
+    localStorage.setItem('language_code', "uz");
+  }
   const { language, setLanguage } = useContext(LanguageContext);
   const t = translation[language];
   const youtube_channel = "https://www.youtube.com/@%D0%A5%D0%B0%D1%91%D1%82%D0%98%D0%BB%D0%B4%D0%B8%D0%B7%D0%B8-%D1%81%D0%B0%D0%BB%D0%BE%D0%BC%D0%B0%D1%82%D0%BB%D0%B8%D0%BA%D1%81%D0%B0%D1%80%D0%B8%D0%B1%D0%B8%D1%80%D0%B3%D0%B0";

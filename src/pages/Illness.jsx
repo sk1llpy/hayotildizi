@@ -12,6 +12,11 @@ import SuyakImage from '../assets/illnesses/page/suyak.png'
 
 
 const Illness = () => {
+    if (!localStorage.getItem('language_code')) {
+        localStorage.setItem('language', "O'zbekcha");
+        localStorage.setItem('language_image', "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/255px-Flag_of_Uzbekistan.svg.png");
+        localStorage.setItem('language_code', "uz");
+    }
     const images = {
         "1": JigarImage,
         "2": SuyakImage
