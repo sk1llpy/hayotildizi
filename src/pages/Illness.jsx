@@ -55,7 +55,7 @@ const Illness = () => {
                     </div>
                     <div className="flex justify-center gap-3 mt-[50px] lg:mt-0">                        
                         <a
-                            href="tel:+998787777757"
+                            href="tel:+998712303399"
                             className="bg-[#29A624] lg:mt-[20px] mt-[-20px] w-[300px] text-white inline-flex hover:bg-[#29A624]/90 border border-[#29A624] lg:leading-1 lg:!px-7 lg:py-4 items-center justify-center text-sm lg:text-base px-5 py-1.5 3lg:px-7 3lg:py-4 font-semibold rounded-md transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-[#29A624]"
                         >
                             {t.buttons['call-with-us']}

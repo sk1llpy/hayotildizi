@@ -4,7 +4,7 @@ import translation from "../translations/translation.json";
 import AchievementCard from "../components/Achievement";
 import { Link } from "react-router-dom";
 import data from '../data/data.json'
-import AboutImage from '../assets/form.jpg'
+import AboutImage from '../assets/form.png'
 
 const About = () => {
     if (!localStorage.getItem('language_code')) {
@@ -30,7 +30,7 @@ const About = () => {
                         <div className="mt-10 block lg:flex">
                             <div>
                                     <a
-                                        href="tel:+998787777757"
+                                        href="tel:+998712303399"
                                         className="bg-[#29A624] lg:mt-[20px] mt-[-20px] w-[300px] text-white hover:bg-[#29A624]/90 border border-[#29A624] lg:leading-1 lg:!px-7 lg:py-4 inline-flex items-center justify-center text-sm lg:text-base px-5 py-1.5 3lg:px-7 3lg:py-4 font-semibold rounded-md transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-[#29A624]"
                                     >
                                         {t.buttons['call-with-us']}
@@ -61,7 +61,7 @@ const About = () => {
                         <div className="mt-10 block lg:flex">
                             <div>
                                     <a
-                                        href="tel:+998787777757"
+                                        href="tel:+998712303399"
                                         className="bg-[#29A624] lg:mt-[20px] mt-[-20px] w-[300px] text-white hover:bg-[#29A624]/90 border border-[#29A624] lg:leading-1 lg:!px-7 lg:py-4 inline-flex items-center justify-center text-sm lg:text-base px-5 py-1.5 3lg:px-7 3lg:py-4 font-semibold rounded-md transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-[#29A624]"
                                     >
                                         {t.buttons['call-with-us']}

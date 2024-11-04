@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
-import SwiperComponent from '../components/Swiper';
 import AchievementCard from '../components/Achievement';
 import IllnessesCard from '../components/Illness';
 import Form from '../components/Form';
@@ -8,7 +7,10 @@ import data from '../data/data.json';
 import translation from '../translations/translation.json';
 import Certificates from '../assets/certificates/Certificates';
 import { LanguageContext } from '../contexts/LanguageContext';
-import AboutImage from '../assets/form.jpg'
+// import AboutImage from '../assets/form.png'
+import AboutVideo from '../assets/abuot.mp4';
+import MainVideo from '../assets/main.mp4';
+import { Typewriter } from 'react-simple-typewriter';
 
 
 const Home = () => {
@@ -22,23 +24,51 @@ const Home = () => {
   const youtube_channel = "https://www.youtube.com/@%D0%A5%D0%B0%D1%91%D1%82%D0%98%D0%BB%D0%B4%D0%B8%D0%B7%D0%B8-%D1%81%D0%B0%D0%BB%D0%BE%D0%BC%D0%B0%D1%82%D0%BB%D0%B8%D0%BA%D1%81%D0%B0%D1%80%D0%B8%D0%B1%D0%B8%D1%80%D0%B3%D0%B0";
 
   return (
-    <div className="container mx-auto pt-5">
-      <SwiperComponent />
+    <div className='container mx-auto p-5'>
+      <div className="flex justify-center">
+        <video src={MainVideo} autoPlay muted loop className='rounded-[20px] w-[100%]'></video>
+      </div>
       <hr className="mt-[70px]" />
       <section className="mt-[50px] lg:mt-[50px] mb-[80px] lg:mb-[100px]" id="about-section">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-10">
+        <div style={{ textAlign: 'center', marginTop: '50px', marginBottom: '50px' }}>
+          <h1 style={{ color: 'black' }} className='text-[24px] font-bold'>
+            <span style={{ color: '#black', fontWeight: 'bold' }}>
+              <Typewriter
+                words={['Hayot Ildizi - kompaniyasiga xush kelibsiz!', 'Welcome to company - Hayot Ildizi!', 'Добро пожаловать в компанию - Hayot Ildizi!']}
+                loop={0}
+                cursor
+                cursorStyle='_'
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </span>
+          </h1>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-10 mt-[20px]">
+          <video src={AboutVideo} autoPlay muted loop className='rounded-[10px] lg:hidden block cursor-pointer mb-2'></video>
           <div className="flex items-center justify-center">
             <div>
               <div>
-                <h1 className="text-[25px]">{t.about.title}</h1>
+                <h1 className="text-[22px]">
+                  <Typewriter
+                    words={[t.about.title]}
+                    loop={1}
+                    typeSpeed={70}
+                    deleteSpeed={50}
+                    delaySpeed={1000}
+                  />
+                </h1>
               </div>
               <div className="mt-4">
-                <p>{ t.about.body }</p>
+                <p>
+                  {t.about.body}
+                </p>
               </div>
               <div className="mt-10 block lg:flex">
                 <div>
                   <a
-                    href="tel:+998787777757"
+                    href="tel:+998712303399"
                     className="bg-[#29A624] lg:mt-[20px] mt-[-20px] w-[300px] text-white hover:bg-[#29A624]/90 border border-[#29A624] lg:leading-1 lg:!px-7 lg:py-4 inline-flex items-center justify-center text-sm lg:text-base px-5 py-1.5 3lg:px-7 3lg:py-4 font-semibold rounded-md transition-colors duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-[#29A624]"
                   >
                     {t.buttons['call-with-us']}
@@ -55,7 +85,8 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <img src={AboutImage} alt="" />
+          {/* <img src={AboutImage} alt="" /> */}
+          <video src={AboutVideo} autoPlay muted loop className='rounded-[10px] hidden lg:block'></video>
         </div>
       </section>
       <hr />

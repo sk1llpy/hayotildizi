@@ -5,7 +5,7 @@ import Select from '@mui/material/Select';
 import axios from 'axios';
 import translation from '../translations/translation.json';
 import { LanguageContext } from '../contexts/LanguageContext';
-import AboutImage from '../assets/form.jpg';
+import AboutImage from '../assets/form.png';
 
 const regions = {
     "г. Ташкент": 44,

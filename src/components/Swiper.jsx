@@ -1,7 +1,10 @@
 import React from 'react';
 import { Pagination, Scrollbar, A11y } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import slidePhoto from '../assets/slide.png';
+import slidePhotoFirst from '../assets/slide.png';
+import slidePhotoSecond from '../assets/slide2.jpg';
+import slidePhotoMobileFirst from '../assets/slide_phone.jpg';
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -11,7 +14,7 @@ import 'swiper/css/scrollbar';
 const SwiperComponent = () => {
   return (
     <div className='w-full flex'>
-        <Swiper
+      <Swiper
         modules={[Pagination, Scrollbar, A11y]}
         spaceBetween={50}
         slidesPerView={1}
@@ -21,14 +24,32 @@ const SwiperComponent = () => {
         }}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log('slide change')}
-        style={{ width: 1000, borderRadius: 10 }}
+        style={{ width: 1100, borderRadius: 15 }}
         className="bg-transparent rounded-10 shadow-md h-[20%]"
       >
         <SwiperSlide>
-          <img src={slidePhoto} alt="" className="w-full h-full object-cover rounded-10" />
+          <div className="hidden lg:block">
+            <a href="tel:+998712303399">
+              <img src={slidePhotoFirst} alt="" className="w-full h-full object-cover rounded-10" />
+            </a>
+          </div>
+          <div className="block lg:hidden">
+            <a href="tel:+998712303399">
+              <img src={slidePhotoMobileFirst} alt="" className="w-full h-full object-cover rounded-10" />
+            </a>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={slidePhoto} alt="" className="w-full h-full object-cover rounded-10" />
+        <div className="hidden lg:block">
+            <a href="tel:+998712303399">
+              <img src={slidePhotoSecond} alt="" className="w-full h-full object-cover rounded-10" />
+            </a>
+          </div>
+          <div className="block lg:hidden">
+            <a href="tel:+998712303399">
+              <img src={slidePhotoMobileFirst} alt="" className="w-full h-full object-cover rounded-10" />
+            </a>
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>
