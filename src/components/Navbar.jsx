@@ -23,9 +23,9 @@ const Navbar = () => {
       image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Russia.svg/255px-Flag_of_Russia.svg.png'
     },
     {
-      language: 'English',
-      language_code: 'en',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/255px-Flag_of_the_United_Kingdom_%281-2%29.svg.png'
+      language: 'Türkçe',
+      language_code: 'tr',
+      image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/800px-Flag_of_Turkey.svg.png'
     }
   ];
 
@@ -68,15 +68,17 @@ const Navbar = () => {
             <p className='text-white block lg:hidden'><span className='font-bold text-white'>Toshkent</span></p>
           </div>
           <div className='flex gap-1 items-center'>
-            <FaPhone className='text-white'/>
-            <p className='text-white hidden lg:block'>Telefon: <span className='font-bold text-white'>+998 71 230 3339</span></p>
-            <p className='text-white block lg:hidden'><span className='font-bold text-white'>+998 71 230 3339</span></p>
+            <a href="tel:+998712303399" className='flex items-center gap-2'>
+              <FaPhone className='text-white'/>
+              <p className='text-white hidden lg:block'>Telefon: <span className='font-bold text-white'>+998 71 230 3339</span></p>
+              <p className='text-white block lg:hidden'><span className='font-bold text-white'>+998 71 230 3339</span></p>
+            </a>
           </div>
           <div className='flex gap-4 item-center'>
-            <a href="https://instagram.com/">
+            <a href="https://www.instagram.com/hayotildizi/profilecard/?igsh=eDMyMzljY2N1aGtq">
               <FaInstagram className='text-white text-[22px]'/>
             </a>
-            <a href="https://t.me/">
+            <a href="https://t.me/hayotildizi">
               <FaTelegram className='text-white text-[22px]'/>
             </a>
             <a href="tel:+998712303399">
@@ -85,7 +87,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <nav className="navbar bg-white shadow-lg sticky top-0 z-50 px-6 py-4 flex justify-between items-center">
+      <nav className="navbar bg-[#F6FBE9] shadow-lg sticky top-0 z-50 px-6 py-4 flex justify-between items-center">
         {/* Logo Section */}
         <div className="flex items-center">
           <Link to="/">
@@ -96,7 +98,7 @@ const Navbar = () => {
         {/* Hamburger Icon for Mobile */}
         <div className="lg:hidden">
           <a onClick={toggleMobileMenu} className="text-gray-700 focus:outline-none">
-            {isMobileMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+            {!isMobileMenuOpen ? <FaBars size={24} /> : <FaTimes size={24} />}
           </a>
         </div>
 
@@ -156,7 +158,7 @@ const Navbar = () => {
               <FaChevronDown className="ml-2" />
             </button>
             {isLanguageDropdownOpen && (
-              <div className="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg z-50">
+              <div className="absolute right-0 mt-2 w-48 bg-[#F6FBE9] border border-gray-200 rounded-lg shadow-lg z-50">
                 <ul className="py-2">
                   {languages.map((language, index) => (
                     <li
@@ -201,7 +203,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <div
-          className={`fixed top-0 left-0 h-full w-[80%] bg-white shadow-lg transition-transform duration-300 ease-in-out ${
+          className={`md:mt-[40px] mt-[0px] fixed top-0 left-0 h-full w-[80%] bg-[#F6FBE9] shadow-lg transition-transform duration-300 ease-in-out ${
             isMobileMenuOpen ? 'transform translate-x-0' : 'transform -translate-x-full'
           }`}
         >
@@ -209,12 +211,6 @@ const Navbar = () => {
             <Link to="/">
               <img src={logoImage} alt="Hayotildizi Logo" className="h-8" />
             </Link>
-            <a
-              onClick={toggleMobileMenu}
-              className="text-gray-700 focus:outline-none"
-            >
-              <FaTimes size={24} />
-            </a>
           </div>
           <div className="flex flex-col px-6 py-6 space-y-8">
             <NavLink
@@ -234,7 +230,7 @@ const Navbar = () => {
               {t.header.about}
             </NavLink>
             <NavLink
-              to="/#illnesses"
+              to="#illnesses"
               onClick={toggleMobileMenu}
               className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-300"
               activeClassName="text-green-600"
@@ -273,7 +269,7 @@ const Navbar = () => {
                 <FaChevronDown className="ml-2" />
               </button>
               {isLanguageDropdownOpen && (
-                <div className="mt-2 w-full bg-white border border-gray-200 rounded-lg shadow-lg">
+                <div className="mt-2 w-full bg-[#F6FBE9] border border-gray-200 rounded-lg shadow-lg">
                   <ul className="py-2">
                     {languages.map((language, index) => (
                       <li

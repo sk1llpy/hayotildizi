@@ -13,7 +13,7 @@ const NotFound = () => {
     const t = translation[language];
 
     return (
-        <div className="container mx-auto justify-center flex items-center">
+        <div className="container mx-auto justify-center flex items-center mt-[130px] mb-[50px]">
             <div>
                 <h1 className="font-bold text-[100px] mt-[-100px] text-center">404</h1>
                 <p className="text-center text-[20px] mt-[-15px]">{ t['404'].description }</p>

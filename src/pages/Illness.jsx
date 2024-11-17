@@ -19,7 +19,9 @@ const Illness = () => {
     }
     const images = {
         "1": JigarImage,
-        "2": SuyakImage
+        "2": SuyakImage,
+        "3": "https://storage.kun.uz/source/9/YgfYGTLjAvdmMVOFP05ID4Wr_3JOW71e.jpg",
+        "4": "https://back.avitsenna.uz/uploads/2015/07/prostata11.png"
     }
 
     const { language, setLanguage } = useContext(LanguageContext);

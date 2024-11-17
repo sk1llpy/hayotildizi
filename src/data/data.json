@@ -37,6 +37,18 @@
             "title": "Suyak bo’gim kasalliklari",
             "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik.",
             "image": "./illnesses/arthritis.png"
+        },
+        {
+            "id": 3,
+            "title": "Buyrak kasalliklari",
+            "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik.",
+            "image": "https://cdn-icons-png.flaticon.com/512/9202/9202155.png"
+        },
+        {
+            "id": 4,
+            "title": "Prostata",
+            "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik.",
+            "image": "https://cdn-icons-png.flaticon.com/512/6432/6432052.png"
         }
     ],
     "youtube-videos": [

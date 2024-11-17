@@ -2,9 +2,11 @@ import React, { useContext } from "react";
 import { LanguageContext } from "../contexts/LanguageContext";
 import translation from "../translations/translation.json";
 import AchievementCard from "../components/Achievement";
+import AboutVideo from '../assets/abuot.mp4';
 import { Link } from "react-router-dom";
 import data from '../data/data.json'
 import AboutImage from '../assets/form.png'
+import Form from '../components/Form'
 
 const About = () => {
     if (!localStorage.getItem('language_code')) {
@@ -19,10 +21,11 @@ const About = () => {
         <div className="container mx-auto">
             <section className="mt-[30px] lg:mt-[40px] mb-[80px] lg:mb-[100px]" id="about-section">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-10">
+                    <video src={AboutVideo} autoPlay muted loop className='rounded-[10px] block lg:hidden cursor-pointer mb-2'></video>
                     <div className="flex items-center justify-center">
                         <div>
                             <div>
-                                <h1 className="text-[25px]">{t.about.title}</h1>
+                                <h1 className="text-[28px] font-bold">{t.about.title}</h1>
                             </div>
                         <div className="mt-4">
                             <p>{ t.about.body }</p>
@@ -39,17 +42,17 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <img src={AboutImage} alt="" />
+                    <video src={AboutVideo} autoPlay muted loop className='rounded-[10px] hidden lg:block cursor-pointer mb-2'></video>
                 </div>
             </section>
             <hr />
             <section className="mt-[50px] lg:mt-[100px] mb-[80px] lg:mb-[100px]" id="about-section">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-10">
-                    <img src={AboutImage} alt="" />
+                    <img src="https://images.uzum.uz/cpfhuc7frr82f0a5cl60/original.jpg" id="about-image" alt="" className="w-100 rounded-[10px]"/>
                     <div className="flex items-center justify-center">
                         <div>
                             <div>
-                                <h1 className="text-[25px]">{t.benefits.title}</h1>
+                                <h1 className="text-[28px] font-bold">{t.benefits.title}</h1>
                             </div>
                         <div className="mt-4">
                             <ul className="about_page_list list-disc ml-[20px]">
@@ -72,22 +75,8 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <hr />
-            <section className="mt-10" id="achievements">
-                <h1 className="text-center text-[150%]">{t.achievements.title}</h1>
-                <p className="text-center mt-5 text-[120]">
-                {t.achievements.body}
-                </p>
-                <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 mt-10">
-                    {data.achievements.map((item, index) => (
-                        <AchievementCard
-                            title={t.achievements[`${item.id}`].title}
-                            description={t.achievements[`${item.id}`].description}
-                            image={item.image}
-                        />
-                    ))}
-                </div>
-            </section>
+            <hr className="mb-[70px]"/>
+            <Form/>
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../assets/logo.svg";
-import { FaPhone, FaInstagram, FaFacebook, FaYoutube, FaLocationArrow } from "react-icons/fa";
+import { FaPhone, FaInstagram, FaFacebook, FaYoutube, FaLocationArrow, FaTelegram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -21,46 +22,46 @@ const Footer = () => {
                     <div className="flex flex-wrap justify-between md:gap-10 gap-6 text-center md:text-left w-full md:w-auto">
                         {/* Biz haqimizda */}
                         <div className="flex flex-col items-center md:items-start gap-3">
-                            <span className="text-white">Biz haqimizda</span>
-                            <p className="flex items-center gap-2 mt-2 text-white">
+                            <Link to="/about" className="text-white">Biz haqimizda</Link>
+                            <a href="https://www.instagram.com/hayotildizi/profilecard/?igsh=eDMyMzljY2N1aGtq" className="flex items-center gap-2 mt-2 text-white">
                                 <div className="rounded-full w-8 h-8 bg-gray-500 flex justify-center items-center">
                                     <FaInstagram className="text-white text-lg"/>
                                 </div> 
                                 @hayotildizi
-                            </p>
-                            <p className="flex items-center gap-2 mt-2 text-white">
+                            </a>
+                            <a href="https://www.youtube.com/@%D0%A5%D0%B0%D1%91%D1%82%D0%98%D0%BB%D0%B4%D0%B8%D0%B7%D0%B8-%D1%81%D0%B0%D0%BB%D0%BE%D0%BC%D0%B0%D1%82%D0%BB%D0%B8%D0%BA%D1%81%D0%B0%D1%80%D0%B8%D0%B1%D0%B8%D1%80%D0%B3%D0%B0" className="flex items-center gap-2 mt-2 text-white">
                                 <div className="rounded-full w-8 h-8 bg-gray-500 flex justify-center items-center">
                                     <FaYoutube className="text-white text-lg"/>
                                 </div> 
                                 @hayotildizi
-                            </p>
+                            </a>
                         </div>
                         
                         {/* Kasalliklar */}
                         <div className="flex flex-col items-center md:items-start gap-3">
-                            <span className="text-white">Kasalliklar</span>
-                            <p className="flex items-center gap-2 mt-2 text-white">
+                            <Link to="#illnesses" className="text-white">Kasalliklar</Link>
+                            <a href="https://www.facebook.com/share/187rQrwHJs/" className="flex items-center gap-2 mt-2 text-white">
                                 <div className="rounded-full w-8 h-8 bg-gray-500 flex justify-center items-center">
                                     <FaFacebook className="text-white text-lg"/>
                                 </div> 
                                 @hayotildizi
-                            </p>
+                            </a>
                         </div>
                         
                         {/* Sharhlar */}
                         <div className="flex flex-col items-center md:items-start gap-3">
-                            <span className="text-white">Sharhlar</span>
-                            <p className="flex items-center gap-2 mt-2 text-white">
+                            <Link to="#youtube-videos" className="text-white">Sharhlar</Link>
+                            <a href="https://t.me/hayotildizi" className="flex items-center gap-2 mt-2 text-white">
                                 <div className="rounded-full w-8 h-8 bg-gray-500 flex justify-center items-center">
-                                    <FaLocationArrow className="text-white text-base"/>
+                                    <FaTelegram className="text-white text-base"/>
                                 </div> 
                                 @hayotildizi
-                            </p>
+                            </a>
                         </div>
                         
                         {/* Sertifikatlar */}
                         <div className="flex flex-col items-center md:items-start gap-3">
-                            <span className="text-white">Sertifikatlar</span>
+                            <Link to="/certificates" className="text-white">Sertifikatlar</Link>
                         </div>
                     </div>
                 </div>
