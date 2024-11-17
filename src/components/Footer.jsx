@@ -22,7 +22,7 @@ const Footer = () => {
                     <div className="flex flex-wrap justify-between md:gap-10 gap-6 text-center md:text-left w-full md:w-auto">
                         {/* Biz haqimizda */}
                         <div className="flex flex-col items-center md:items-start gap-3">
-                            <Link to="/about" className="text-white">Biz haqimizda</Link>
+                            <Link to="/" className="text-white">Bosh sahifa</Link>
                             <a href="https://www.instagram.com/hayotildizi/profilecard/?igsh=eDMyMzljY2N1aGtq" className="flex items-center gap-2 mt-2 text-white">
                                 <div className="rounded-full w-8 h-8 bg-gray-500 flex justify-center items-center">
                                     <FaInstagram className="text-white text-lg"/>
@@ -39,7 +39,7 @@ const Footer = () => {
                         
                         {/* Kasalliklar */}
                         <div className="flex flex-col items-center md:items-start gap-3">
-                            <Link to="#illnesses" className="text-white">Kasalliklar</Link>
+                            <Link to="/about" className="text-white">Biz haqimizda</Link>
                             <a href="https://www.facebook.com/share/187rQrwHJs/" className="flex items-center gap-2 mt-2 text-white">
                                 <div className="rounded-full w-8 h-8 bg-gray-500 flex justify-center items-center">
                                     <FaFacebook className="text-white text-lg"/>
@@ -50,7 +50,7 @@ const Footer = () => {
                         
                         {/* Sharhlar */}
                         <div className="flex flex-col items-center md:items-start gap-3">
-                            <Link to="#youtube-videos" className="text-white">Sharhlar</Link>
+                            <Link to="#illnesses" className="text-white">Kasalliklar</Link>
                             <a href="https://t.me/hayotildizi" className="flex items-center gap-2 mt-2 text-white">
                                 <div className="rounded-full w-8 h-8 bg-gray-500 flex justify-center items-center">
                                     <FaTelegram className="text-white text-base"/>

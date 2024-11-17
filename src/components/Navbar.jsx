@@ -126,13 +126,6 @@ const Navbar = () => {
             {t.header.illnesses}
           </NavLink>
           <NavLink
-            to="/#youtube-videos"
-            className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-300"
-            activeClassName="text-green-600 border-b-2 border-green-600 pb-1"
-          >
-            {t.header.comments}
-          </NavLink>
-          <NavLink
             to="/certificates"
             className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-300"
             activeClassName="text-green-600 border-b-2 border-green-600 pb-1"
@@ -236,14 +229,6 @@ const Navbar = () => {
               activeClassName="text-green-600"
             >
               {t.header.illnesses}
-            </NavLink>
-            <NavLink
-              to="/#youtube-videos"
-              onClick={toggleMobileMenu}
-              className="text-gray-700 hover:text-green-600 font-medium transition-colors duration-300"
-              activeClassName="text-green-600"
-            >
-              {t.header.comments}
             </NavLink>
             <NavLink
               to="/certificates"
