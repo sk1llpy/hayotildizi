@@ -60,29 +60,107 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className='navbar bg-purple-700'>
+      <nav className='navbar bg-purple-700' id='uzum-notification'>
         <div className="container mx-auto flex justify-center gap-2 p-2 items-center">
           <img 
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jybTGUSvxWxihbZMxwinqDCquA6PkMiC1Q&s" 
             alt=""
             className='w-[24px] rounded-[30px]' />
-          <a
-            href='https://uzum.uz/uz/hayotildizi?srsltid=AfmBOorOeqQLGc-HgR-yIpkkrNpCUtzirEw1HcYTDKprRjot5SDYX1DU' 
-            className='text-white font-bold cursor-pointer'
-            target='blank'
-          >
-            Bizning mahsulotlarni endi <span 
-              className='font-extrabold' 
-              style={{ textDecoration: 'underline', fontWeight: '900' }}
-            >
-              <a 
-                href="https://uzum.uz/uz/hayotildizi?srsltid=AfmBOorOeqQLGc-HgR-yIpkkrNpCUtzirEw1HcYTDKprRjot5SDYX1DU"
-                className='font-black'
+          {
+            selectedLanguage.language_code == 'uz' ? (
+              <a
+                href='https://uzum.uz/uz/hayotildizi?srsltid=AfmBOorOeqQLGc-HgR-yIpkkrNpCUtzirEw1HcYTDKprRjot5SDYX1DU' 
+                className='text-white font-bold cursor-pointer'
+                target='blank'
               >
-                Uzum Market
+                Bizning mahsulotlarni endi <span 
+                  className='font-extrabold' 
+                  style={{ textDecoration: 'underline', fontWeight: '900' }}
+                >
+                  <a 
+                    href="https://uzum.uz/uz/hayotildizi?srsltid=AfmBOorOeqQLGc-HgR-yIpkkrNpCUtzirEw1HcYTDKprRjot5SDYX1DU"
+                    className='font-black'
+                  >
+                    Uzum Market
+                  </a>
+                </span> da xarid qiling!
               </a>
-            </span> da xarid qiling
-          </a>
+            ) : (
+              selectedLanguage.language_code == 'ru' ? (
+                <a
+                  href='https://uzum.uz/uz/hayotildizi?srsltid=AfmBOorOeqQLGc-HgR-yIpkkrNpCUtzirEw1HcYTDKprRjot5SDYX1DU' 
+                  className='text-white font-bold cursor-pointer'
+                  target='blank'
+                >
+                  Купите нашу продукцию прямо сейчас на  <span 
+                    className='font-extrabold' 
+                    style={{ textDecoration: 'underline', fontWeight: '900' }}
+                  >
+                    <a 
+                      href="https://uzum.uz/uz/hayotildizi?srsltid=AfmBOorOeqQLGc-HgR-yIpkkrNpCUtzirEw1HcYTDKprRjot5SDYX1DU"
+                      className='font-black'
+                    >
+                      Uzum Market
+                    </a>
+                  </span>!
+                </a>
+              ) : (
+                <a
+                  href='https://uzum.uz/uz/hayotildizi?srsltid=AfmBOorOeqQLGc-HgR-yIpkkrNpCUtzirEw1HcYTDKprRjot5SDYX1DU' 
+                  className='text-white font-bold cursor-pointer'
+                  target='blank'
+                >
+                  Ürünlerimizi hemen <span 
+                    className='font-extrabold' 
+                    style={{ textDecoration: 'underline', fontWeight: '900' }}
+                  >
+                    <a 
+                      href="https://uzum.uz/uz/hayotildizi?srsltid=AfmBOorOeqQLGc-HgR-yIpkkrNpCUtzirEw1HcYTDKprRjot5SDYX1DU"
+                      className='font-black'
+                    >
+                      Üzüm Market
+                    </a>
+                  </span>'ten satın alın!
+                </a>
+              )
+            )
+          }
+          <button 
+            onClick={
+              () => {
+                let element = document.getElementById("uzum-notification");
+                element.style.display = 'none';
+              }
+            }
+            className='right-[3.5%] absolute text-[18px] hidden md:block'
+          >
+            <FaTimes className='text-white' />
+          </button>
+        </div>
+        <hr className='color-white mb-2 mr-5 ml-5 block md:hidden'/>
+        <div className='container mx-auto flex justify-center gap-2 pb-2 items-center md:hidden'>
+          <button 
+            onClick={
+              () => {
+                let element = document.getElementById("uzum-notification");
+                element.style.display = 'none';
+              }
+            }
+            className='text-[18px] flex text-white items-center gap-1'
+          >
+            {
+              selectedLanguage.language_code == 'uz' ? (
+                "Yopish"
+              ) : (
+                selectedLanguage.language_code == 'ru' ? (
+                  "Закрит"
+                ) : (
+                  "Kapat"
+                )
+              )
+            }
+           <FaTimes className='text-white' />
+          </button>
         </div>
       </nav>
       <nav className='navbar bg-green-600 hidden md:block'>
