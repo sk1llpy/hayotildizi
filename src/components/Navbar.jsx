@@ -60,6 +60,31 @@ const Navbar = () => {
 
   return (
     <>
+      <nav className='navbar bg-purple-700'>
+        <div className="container mx-auto flex justify-center gap-2 p-2 items-center">
+          <img 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-jybTGUSvxWxihbZMxwinqDCquA6PkMiC1Q&s" 
+            alt=""
+            className='w-[24px] rounded-[30px]' />
+          <a
+            href='https://uzum.uz/uz/hayotildizi?srsltid=AfmBOorOeqQLGc-HgR-yIpkkrNpCUtzirEw1HcYTDKprRjot5SDYX1DU' 
+            className='text-white font-bold cursor-pointer'
+            target='blank'
+          >
+            Bizning mahsulotlarni endi <span 
+              className='font-extrabold' 
+              style={{ textDecoration: 'underline', fontWeight: '900' }}
+            >
+              <a 
+                href="https://uzum.uz/uz/hayotildizi?srsltid=AfmBOorOeqQLGc-HgR-yIpkkrNpCUtzirEw1HcYTDKprRjot5SDYX1DU"
+                className='font-black'
+              >
+                Uzum Market
+              </a>
+            </span> da xarid qiling
+          </a>
+        </div>
+      </nav>
       <nav className='navbar bg-green-600 hidden md:block'>
         <div className="container mx-auto flex justify-between p-2 items-center">
           <div className='flex gap-1 items-center'>
