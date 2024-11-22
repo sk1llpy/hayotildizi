@@ -30,7 +30,7 @@
             "id": 1,
             "title": "Jigar kasalliklari",
             "description": "Biz sog'lig'ida sezilarli yaxshilanishlarni boshdan kechirgan qoniqarli mijozlardan ko'plab guvohliklarni oldik.",
-            "image": "./illnesses/liver.png"
+            "image": "https://cdn-icons-png.flaticon.com/512/2864/2864290.png"
         },
         {
             "id": 2,

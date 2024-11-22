@@ -37,3 +37,16 @@ body {
     margin-bottom: 5px;
     list-style-type: disc !important;
 }
+
+.swiper-button-prev, .swiper-button-next {
+    color: #29A624 !important;
+    transition: all 0.2s;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+    font-size: 23px !important;
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+    color: #0f870b !important;
+}

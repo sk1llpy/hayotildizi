@@ -7,6 +7,12 @@ import { Link } from "react-router-dom";
 import data from '../data/data.json'
 import AboutImage from '../assets/form.png'
 import Form from '../components/Form'
+import DoriImage from '../assets/dori.png'
+import Dori2Image from '../assets/kop_dori.png'
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
+import 'swiper/swiper-bundle.css';
 
 const About = () => {
     if (!localStorage.getItem('language_code')) {
@@ -16,6 +22,14 @@ const About = () => {
     }
     const { language, setLanguage } = useContext(LanguageContext);
     const t = translation[language];
+
+    const photos = [
+        "https://images.uzum.uz/cptteo0sarnfdo99f4pg/original.jpg",
+        "https://images.uzum.uz/cpfhuc7frr82f0a5cl60/original.jpg",
+        "https://images.uzum.uz/cp4s19nfrr80f2gls7fg/original.jpg",
+        "https://images.uzum.uz/cp4s19vj2e4ghqnrve10/original.jpg",
+        "https://images.uzum.uz/cp31vuvfrr80f2glgmfg/original.jpg"
+    ]
 
     return (
         <div className="container mx-auto">
@@ -48,7 +62,27 @@ const About = () => {
             <hr />
             <section className="mt-[50px] lg:mt-[100px] mb-[80px] lg:mb-[100px]" id="about-section">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-10">
-                    <img src="https://images.uzum.uz/cpfhuc7frr82f0a5cl60/original.jpg" id="about-image" alt="" className="w-100 rounded-[10px]"/>
+                    <div className="w-[90%] mx-auto mb-5 rounded-[10px]">
+                        <Swiper
+                            modules={[Navigation, Pagination]}
+                            spaceBetween={10}
+                            slidesPerView={1}
+                            navigation
+                            className="flex justify-center items-center"
+                            pagination={{ clickable: true }}
+                            loop
+                        >
+                            {photos.map((photo, index) => (
+                            <SwiperSlide key={index}>
+                                <img
+                                src={photo}
+                                alt={`Photo ${index + 1}`}
+                                style={{ width: '100%', borderRadius: '8px' }}
+                                />
+                            </SwiperSlide>
+                            ))}
+                        </Swiper>
+                    </div>
                     <div className="flex items-center justify-center">
                         <div>
                             <div>

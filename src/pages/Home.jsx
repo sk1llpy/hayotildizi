@@ -58,13 +58,7 @@ const Home = () => {
               <div>
                 <div>
                   <h1 className="text-[28px] font-bold">
-                    <Typewriter
-                      words={[t.about.title]}
-                      loop={1}
-                      typeSpeed={70}
-                      deleteSpeed={50}
-                      delaySpeed={1000}
-                    />
+                    {t.about.title}
                   </h1>
                 </div>
                 <div className="mt-4">
