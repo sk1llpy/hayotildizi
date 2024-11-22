@@ -12,7 +12,6 @@ import About from "./pages/About";
 import CertificatesPage from "./pages/Certificates";
 import NotFound from "./pages/NotFound";
 import Illness from "./pages/Illness";
-import Album from "./pages/Album";
 
 const router = createBrowserRouter([
   {
@@ -34,10 +33,6 @@ const router = createBrowserRouter([
       {
         path: "/illness/:id",
         element: <Illness />
-      },
-      {
-        path: "/album",
-        element: <Album />
       },
       {
         path: "*",
